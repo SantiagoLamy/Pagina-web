@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* Estilos Globales */
+body {
+	background-color: rgb(1, 16, 73);
+	font-family: 'Mansalva', cursive;
+	color: #ffffff;
+	margin: 0px;
+	font-style: normal;
+	font-weight: 200;
+	
+}
+	.container {
+		background-color: rgb(1, 9, 42);
+		margin: auto;
+}
+	.cabecera, .navegacion, .pie-pagina {
+		widht: 100%;
+}
+	.cabecera, .navegacion, .contenido, .pie-pagina {
+		float: left;
+}
+/* Estilos Cabecera */
+
+	.cabecera {
+		background-clip: rgb(131, 131, 131);
+		height: 100px;
+}
+/* Estilos Barra de Navegacion */
+
+	.navegacion {
+		background-color: rgb(81, 88, 117);
+		height: 50%;
+		text-align: right;
+}
+
+/* Estilos Contenido */
+
+	.contenido {
+		background-color: (7, 12, 33);
+		width: 60%;
+		display: inline-block;
+}
+	.post {
+		background-color: (7, 12, 33);
+}
+	.contenido-lateral {
+		background-color: (14, 29, 90);
+		width: 40%;
+		display:inline-block;
+		float: right;
+}
+		
